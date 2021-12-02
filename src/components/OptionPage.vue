@@ -5,7 +5,7 @@
 		</div>
 		<div class="secondRow">
 			<div class="srFirst" style="width: auto; height: auto">
-				<img v-bind:src="imageSrc" v-bind:alt="imageSrc + ' image'" />
+				<img v-bind:src="imageSrc" v-bind:alt="imageSrc" />
 			</div>
 			<div class="srSecond">
 				<p>{{ context }}</p>
